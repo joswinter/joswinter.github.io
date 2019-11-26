@@ -1,5 +1,5 @@
 {
-  "http://joswinter.github.io"
+  "homepage": "http://joswinter.github.io",
   "name": "joswinter-app",
   "version": "0.1.0",
   "private": true,

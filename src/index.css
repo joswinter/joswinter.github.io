@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html {
+  font-family: 'Roboto', cursive;
+  background-color: #f7f7f7;
+}
+
+.App {
+  width: 500px;
+  margin: 50px auto;
+  font-size: 15px;
+  background-color: white;
+  box-shadow: 0 0 12px #565656;
+}
+
+.Profile {
+  width: 460px;
+  padding: 20px;
+  background-color: #266fe3;
+  color: white;
+  text-align: right;
+}
+
+.Profile .Name {
+  font-size: 30px;
+}
+
+.Experience {
+  padding: 20px;
+}
+
+.Duration {
+  width: 100px;
+  height: 80px;
+  padding-top: 20px;
+  margin-right: 20px;
+  background-color: #266fe3;;
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+  text-align: center;
+}
+
+.Duration .Number {
+  font-size: 40px;
+}
+
+.Duration .Type {
+  text-transform: capitalize;
+}
+
+.Content {
+  display: inline-block;
+}
+
+.Content .Name {
+  font-size: 30px;
+}
+
+.Content .Function {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Content .Skill {
+  background-color: #266fe3;;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-right: 10px;
+  color: white;
+}

@@ -3,7 +3,8 @@ import Experience from './Experience';
 
 class App extends React.Component {
   render() {
-    const name = 'Jos Winter'
+    const name = 'Jos Winter';
+    const profession = 'Software Engineer';
     const experiences = [
       {
         company: 'Adyen',
@@ -53,7 +54,10 @@ class App extends React.Component {
     ]
     return (
       <div className="App">
-        <div className="Name">{name}</div>
+        <div className="Profile">
+          <div className="Name">{name}</div>
+          <div className="Function">{profession}</div>
+        </div>
         {
           experiences.map(experience => (
           <Experience

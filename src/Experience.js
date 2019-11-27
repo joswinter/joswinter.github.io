@@ -4,14 +4,16 @@ class Experience extends React.Component {
   render() {
     return (
       <div className="Experience">
-        <div className="Name">{this.props.company}</div>
-        <div className="Function">{this.props.function}</div>
         {this.duration(this.props.startDate,this.props.endDate)}
-        <div className="StartDate">{this.props.startDate}</div>
-        <div className="EndDate">{this.props.endDate}</div>
-        {this.props.skills.map(skill => (
-          <div className="Skills">{skill}</div>
-        ))}
+        <div className="Content">
+          <div className="Name">{this.props.company}</div>
+          <div className="Function">{this.props.function}</div>
+          <div className="Skills">
+            {this.props.skills.map(skill => (
+              <div className="Skill">{skill}</div>
+            ))}
+          </div>
+        </div>
       </div>
     );
   }

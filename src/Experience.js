@@ -21,7 +21,7 @@ class Experience extends React.Component {
   duration(start, end) {
     var startDate = new Date(start);
     var endDate;
-    if (end == 'now') {
+    if (end === 'now') {
       endDate = new Date();
     } else {
       endDate = new Date(end);
@@ -35,7 +35,7 @@ class Experience extends React.Component {
       years -= 1;
     }
 
-    if (years == 0) {
+    if (years === 0) {
       return (
         <div className="Duration">
           <div className="Number">{months}</div>

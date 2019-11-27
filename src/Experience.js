@@ -6,8 +6,7 @@ class Experience extends React.Component {
       <div className="Experience">
         <div className="Name">{this.props.company}</div>
         <div className="Function">{this.props.function}</div>
-        <div className="Duration">{this.duration(this.props.startDate,
-                                                 this.props.endDate)}</div>
+        {this.duration(this.props.startDate,this.props.endDate)}
         <div className="StartDate">{this.props.startDate}</div>
         <div className="EndDate">{this.props.endDate}</div>
         {this.props.skills.map(skill => (
@@ -35,9 +34,21 @@ class Experience extends React.Component {
     }
 
     if (years == 0) {
-      return months + ' months';
+      return (
+        <div className="Duration">
+          <div className="Number">{months}</div>
+          <div className="Type">months</div>
+        </div>
+      )
+    } else {
+      const number = years + Math.round(10 * months / 12) / 10;
+      return (
+        <div className="Duration">
+          <div className="Number">{number}</div>
+          <div className="Type">years</div>
+        </div>
+      )
     }
-    return years + ' years and ' + months + ' months';
   }
 }
 

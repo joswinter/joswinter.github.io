@@ -1,0 +1,62 @@
+[
+  {
+    "company": "Adyen",
+    "function": "Software Engineer",
+    "startDate": "2018-09",
+    "endDate": "now",
+    "duration": "1Y + 4M",
+    "skills": [
+      "java", "sql"
+    ]
+  },
+  {
+    "company": "Adyen",
+    "function": "Graduate Intern",
+    "startDate": "2017-11",
+    "endDate": "2018-09",
+    "duration": "11M",
+    "skills": [
+      "java", "sql"
+    ]
+  },
+  {
+    "company": "Siemens",
+    "function": "Summer Research Intern",
+    "startDate": "2016-06",
+    "endDate": "2016-09",
+    "duration": "4M",
+    "skills": [
+      "c#", "php", "sql"
+    ]
+  },
+  {
+    "company": "TU Delft",
+    "function": "Bachelor Graduate Intern",
+    "startDate": "2016-03",
+    "endDate": "2016-06",
+    "duration": "4M",
+    "skills": [
+      "python"
+    ]
+  },
+  {
+    "company": "TU Delft",
+    "function": "Research Intern",
+    "startDate": "2014-11",
+    "endDate": "2016-03",
+    "duration": "1Y + 5M",
+    "skills": [
+      "haskell", "f#"
+    ]
+  },
+  {
+    "company": "Synetic",
+    "function": "Web Developer",
+    "startDate": "2014-06",
+    "endDate": "2016-01",
+    "duration": "1Y + 8M",
+    "skills": [
+      "php", "js", "sql", "html"
+    ]
+  }
+]

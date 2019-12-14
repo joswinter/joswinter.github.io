@@ -1,0 +1,26 @@
+[
+  {
+    "institute": "TU Delft",
+    "type": "Master of Science",
+    "startDate": "2016-09",
+    "endDate": "2018-09",
+    "duration": "2Y",
+    "courses": []
+  },
+  {
+    "institute": "TU Delft",
+    "type": "Bachelor of Science",
+    "startDate": "2013-09",
+    "endDate": "2016-09",
+    "duration": "2Y",
+    "courses": []
+  },
+  {
+    "institute": "Kennemercollege Büllerlaan",
+    "type": "Dutch Pre-University Education",
+    "startDate": "207-09",
+    "endDate": "2013-09",
+    "duration": "7Y",
+    "courses": []
+  }
+]

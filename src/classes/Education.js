@@ -3,14 +3,28 @@ import React from 'react';
 class Education extends React.Component {
   render() {
     return (
-      <div className="education">
-        <button type="button" class="btn btn-primary m-2">
-          {this.props.education.institute} - {this.props.education.type}
-          <span class="badge badge-light ml-2">{this.props.education.duration}</span>
-        </button>
-        {this.props.education.courses.map(course => (
-          <span class="badge badge-secondary m-2 p-2">{course}</span>
-        ))}
+      <div className="story education">
+        <div className="container">
+          <h2>
+            <span className="highlight mr-2">
+              {this.props.education.type}
+            </span>
+            at
+            <span className="highlight m-2">
+              {this.props.education.institute}
+            </span>
+            for
+            <div className="badge badge-primary ml-3">
+              {this.props.education.duration}
+            </div>
+          </h2>
+          <p>
+            From {this.props.education.startDate} till {this.props.education.endDate}
+          </p>
+          {this.props.education.courses.map(course => (
+              <div className="skill badge badge-success mr-2">{course}</div>
+            ))}
+          </div>
       </div>
     );
   }

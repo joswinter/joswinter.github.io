@@ -1,62 +1,75 @@
 [
   {
-    "company": "Adyen",
-    "function": "Software Engineer",
-    "startDate": "2018-09",
-    "endDate": "now",
-    "duration": "1Y + 4M",
-    "skills": [
-      "java", "sql"
+    "name": "Adyen",
+    "experiences": [
+      {
+        "name": "Software Engineer",
+        "startDate": "2018-09",
+        "endDate": "now",
+        "duration": "1Y + 4M",
+        "descriptions": [
+          "Implementing new features, fixing problems, improving maintainability, scalability and the operation scalability",
+          "Created the logging and monitoring for all tokenization related products",
+          "Created robust integration test suite for all tokenization related products",
+          "Responsible for development of the auto rescue project",
+          "Interviewing of java developers including technical interviews and reviewing programming test"
+        ],
+        "skills": [
+          "java", "sql", "bash"
+        ]
+      },
+      {
+        "name": "Graduate Intern",
+        "startDate": "2017-11",
+        "endDate": "2018-09",
+        "duration": "11M",
+        "descriptions": [
+          "Proposed an approach that integrates monitoring signals into the development environment and worklow",
+          "Implemented a prototype of a Monitoring-Aware IDE, connected to the monitoring systems of Adyen",
+          "Improved the performance of developers by elimination time continuously spent on context switching from development to monitoring environments"
+        ],
+        "skills": [
+          "java", "sql"
+        ]
+      }
     ]
   },
   {
-    "company": "Adyen",
-    "function": "Graduate Intern",
-    "startDate": "2017-11",
-    "endDate": "2018-09",
-    "duration": "11M",
-    "skills": [
-      "java", "sql"
+    "name": "Siemens",
+    "experiences": [
+      {
+        "name": "Summer Research Intern",
+        "startDate": "2016-06",
+        "endDate": "2016-09",
+        "duration": "4M",
+        "descriptions": [
+          "Responsible for prototyping and researching a scalable distributed logging system to proactively prevent infrastructural failures",
+          "Implemented in c# using an advanced message queuing protocol server",
+          "Prototype was implemented successfully in a short time period and fulfilled all requirements"
+        ],
+        "skills": [
+          "c#", "php", "sql"
+        ]
+      }
     ]
   },
   {
-    "company": "Siemens",
-    "function": "Summer Research Intern",
-    "startDate": "2016-06",
-    "endDate": "2016-09",
-    "duration": "4M",
-    "skills": [
-      "c#", "php", "sql"
-    ]
-  },
-  {
-    "company": "TU Delft",
-    "function": "Bachelor Graduate Intern",
-    "startDate": "2016-03",
-    "endDate": "2016-06",
-    "duration": "4M",
-    "skills": [
-      "python"
-    ]
-  },
-  {
-    "company": "TU Delft",
-    "function": "Research Intern",
-    "startDate": "2014-11",
-    "endDate": "2016-03",
-    "duration": "1Y + 5M",
-    "skills": [
-      "haskell", "f#"
-    ]
-  },
-  {
-    "company": "Synetic",
-    "function": "Web Developer",
-    "startDate": "2014-06",
-    "endDate": "2016-01",
-    "duration": "1Y + 8M",
-    "skills": [
-      "php", "js", "sql", "html"
+    "name": "Synetic",
+    "experiences": [
+      {
+        "name": "Web Developer",
+        "startDate": "2014-06",
+        "endDate": "2016-01",
+        "duration": "1Y + 8M",
+        "descriptions": [
+          "Bug fixing, maintaining installations and implementing new features",
+          "Responsible for investigation of client issues",
+          "Development using primarily php with the drupal framework"
+        ],
+        "skills": [
+          "php", "js", "sql", "html", "bash"
+        ]
+      }
     ]
   }
 ]

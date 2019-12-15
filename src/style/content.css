@@ -1,0 +1,38 @@
+.experience-group {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding-top: 20px;
+  margin: 50px;
+}
+
+.experience-group h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.experience {
+  font-size: 18px;
+  margin: 50px;
+}
+
+.duration {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.date-range {
+  margin-bottom: 15px;
+}
+
+.name {
+  display: inline-block;
+  vertical-align: center;
+}
+
+.skill {
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  background-color: #007bff;
+}

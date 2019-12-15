@@ -1,26 +1,55 @@
 [
   {
-    "institute": "TU Delft",
-    "type": "Master of Science",
-    "startDate": "2016-09",
-    "endDate": "2018-09",
-    "duration": "2Y",
-    "courses": []
+    "name": "TU Delft",
+    "experiences": [
+      {
+        "name": "Master of Science",
+        "startDate": "2016-09",
+        "endDate": "2018-09",
+        "duration": "2Y",
+        "descriptions": [
+          "Specialization in Software Engineering and Algorithmics",
+          "Thesis: Increasing Operational Awareness using Monitoring-Aware IDEs 9.0/10",
+          "Presented paper publication at conference: ESEC/FSE 2019"
+        ],
+        "skills": [
+          "java", "c#", "sql"
+        ]
+      },
+      {
+        "name": "Bachelor of Science",
+        "startDate": "2013-09",
+        "endDate": "2016-09",
+        "duration": "3Y",
+        "descriptions": [
+          "Propedeuse Cum Laude - Technische Informatica, 8.3/10",
+          "Thesis: Decentral self-regulating electronic market 9.0/10",
+          "Honours Programme Bachelor (20EC ≈ +20% study load)",
+          "Paper publication at conference: SANER 2016"
+        ],
+        "skills": [
+          "java", "python", "c#", "js", "f#", "haskell", "assembly", "c", "sql"
+        ]
+      }
+    ]
   },
   {
-    "institute": "TU Delft",
-    "type": "Bachelor of Science",
-    "startDate": "2013-09",
-    "endDate": "2016-09",
-    "duration": "2Y",
-    "courses": []
-  },
-  {
-    "institute": "Kennemercollege Büllerlaan",
-    "type": "Dutch Pre-University Education",
-    "startDate": "207-09",
-    "endDate": "2013-09",
-    "duration": "7Y",
-    "courses": []
+    "name": "Kennemercollege Büllerlaan",
+    "experiences": [
+      {
+        "name": "Dutch Pre-University Education",
+        "startDate": "207-09",
+        "endDate": "2013-09",
+        "duration": "7Y",
+        "descriptions": [
+          "Extra course: Computer Science",
+          "Participated in Dutch Olympiad in Informatics",
+          "Final project: Autonomously controlled vehicles 9.0/10"
+        ],
+        "skills": [
+          "java", "gml", "basic", "html", "js", "css"
+        ]
+      }
+    ]
   }
 ]

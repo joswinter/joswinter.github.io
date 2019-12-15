@@ -9,11 +9,22 @@ class App extends React.Component {
     return (
       <div className="app">
         <div class="header" >
+          <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
           <div className="container">
             <h1>Hi, I'm Jos Winter</h1>
             <p>
               Currently I'm working as a software engineer. Passionate about beautiful software architecture, algorithmics, and solving technical problems using programming.
-              You can contact me on <a href="https://www.linkedin.com/in/joswinter/">LinkedIn</a> or drop me an <a href="mailto:info@joswinter.nl">email</a>.
             </p>
           </div>
         </div>

@@ -8,11 +8,11 @@
         "endDate": "now",
         "duration": "1Y + 4M",
         "descriptions": [
-          "Implementing new features, fixing problems, improving maintainability, scalability and the operation scalability",
-          "Created the logging and monitoring for all tokenization related products",
-          "Created robust integration test suite for all tokenization related products",
-          "Responsible for development of the auto rescue project",
-          "Interviewing of java developers including technical interviews and reviewing programming test"
+          "Responsible for the logging and monitoring for all tokenization related products",
+          "Responsible for development of the auto rescue product",
+          "Created a robust integration test suite for all tokenization related products",
+          "Implementing new features, fixing bugs, improving maintainability, scalability and operation scalability",
+          "Interviewing of java developers including technical interviews and review of coding tests"
         ],
         "skills": [
           "java", "sql", "bash"

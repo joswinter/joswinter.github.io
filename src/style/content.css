@@ -1,24 +1,32 @@
 .experience-group {
   background-color: #fff;
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 10px;
   padding-top: 20px;
-  margin: 50px;
+  margin: 50px 0;
 }
 
 .experience-group h2 {
   text-align: center;
   margin-bottom: 25px;
+  font-size: 30px;
 }
 
 .experience {
-  font-size: 18px;
-  margin: 50px;
+  font-size: 15px;
+  margin: 50px 5%;
+}
+
+.experience h3 {
+  font-size: 25px;
 }
 
 .duration {
-  font-size: 20px;
-  font-weight: normal;
+  font-size: 15px;
+  color: white;
+  padding: 7px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .date-range {
@@ -27,12 +35,23 @@
 
 .name {
   display: inline-block;
-  vertical-align: center;
+  vertical-align: top;
 }
 
 .skill {
-  font-size: 20px;
+  font-size: 15px;
   color: white;
-  padding: 10px;
+  padding: 7px;
+}
+
+.badge-skill {
   background-color: #007bff;
+}
+
+.badge-technology {
+  background-color: #ffa136;
+}
+
+.badge-soft-skill {
+  background-color: #f75a3e;
 }

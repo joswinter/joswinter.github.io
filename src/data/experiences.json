@@ -16,6 +16,12 @@
         ],
         "skills": [
           "java", "sql", "bash"
+        ],
+        "technologies": [
+          "git", "gradle", "tomcat", "jenkins", "mybatis", "postgresql", "grafana"
+        ],
+        "softSkills": [
+          "testing", "distributed systems", "monitoring", "dashboarding", "ci/cd", "agile", "interviewing"
         ]
       },
       {
@@ -26,10 +32,17 @@
         "descriptions": [
           "Proposed an approach that integrates monitoring signals into the development environment and worklow",
           "Implemented a prototype of a Monitoring-Aware IDE, connected to the monitoring systems of Adyen",
-          "Improved the performance of developers by elimination time continuously spent on context switching from development to monitoring environments"
+          "Improved the performance of developers by eliminating the time spent on context switching from development to monitoring environments",
+          "Presented paper publication at conference: ESEC/FSE 2019"
         ],
         "skills": [
           "java", "sql"
+        ],
+        "technologies": [
+          "git", "gradle", "spring-boot", "intellij"
+        ],
+        "softSkills": [
+          "plugin development", "logging", "academic reading + writing", "presenting"
         ]
       }
     ]
@@ -48,7 +61,13 @@
           "Prototype was implemented successfully in a short time period and fulfilled all requirements"
         ],
         "skills": [
-          "c#", "php", "sql"
+          "c#", "c", "sql"
+        ],
+        "technologies": [
+          "svn", "rabbitmq", "azure", "sql server"
+        ],
+        "softSkills": [
+          "monitoring", "distributed systems", "stakeholder analysis"
         ]
       }
     ]
@@ -68,6 +87,12 @@
         ],
         "skills": [
           "php", "js", "sql", "html", "bash"
+        ],
+        "technologies": [
+          "drupal", "svn", "jenkins"
+        ],
+        "softSkills": [
+          "client communication", "scrum"
         ]
       }
     ]

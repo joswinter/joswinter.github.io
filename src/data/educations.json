@@ -3,32 +3,42 @@
     "name": "TU Delft",
     "experiences": [
       {
-        "name": "Master of Science",
+        "name": "Master of Science - Computer Science",
         "startDate": "2016-09",
         "endDate": "2018-09",
         "duration": "2Y",
         "descriptions": [
+          "Graduated in nominal time, 8.2/10",
           "Specialization in Software Engineering and Algorithmics",
           "Thesis: Increasing Operational Awareness using Monitoring-Aware IDEs 9.0/10",
           "Presented paper publication at conference: ESEC/FSE 2019"
         ],
         "skills": [
-          "java", "c#", "sql"
+          "java", "c#", "scala", "f#", "sql"
+        ],
+        "technologies": [],
+        "softSkills": [
+          "software engineering", "programming language development", "algorithmics", "quantum computing", "security", "cryptography", "distibuted systems"
         ]
       },
       {
-        "name": "Bachelor of Science",
+        "name": "Bachelor of Science - Computer Science",
         "startDate": "2013-09",
         "endDate": "2016-09",
         "duration": "3Y",
         "descriptions": [
-          "Propedeuse Cum Laude - Technische Informatica, 8.3/10",
+          "Graduated in nominal time with honours, 8.0/10",
+          "First year with distinction, 8.3/10",
           "Thesis: Decentral self-regulating electronic market 9.0/10",
           "Honours Programme Bachelor (20EC ≈ +20% study load)",
           "Paper publication at conference: SANER 2016"
         ],
         "skills": [
-          "java", "python", "c#", "js", "f#", "haskell", "assembly", "c", "sql"
+          "java", "python", "c#", "scala", "js", "f#", "haskell", "assembly", "c", "sql"
+        ],
+        "technologies": [],
+        "softSkills": [
+          "programming languages", "functional programming", "algorithmics", "oop", "scrum"
         ]
       }
     ]
@@ -42,12 +52,18 @@
         "endDate": "2013-09",
         "duration": "7Y",
         "descriptions": [
-          "Extra course: Computer Science",
+          "Extra course: Computer Science, 9.0/10",
           "Participated in Dutch Olympiad in Informatics",
           "Final project: Autonomously controlled vehicles 9.0/10"
         ],
         "skills": [
-          "java", "gml", "basic", "html", "js", "css"
+          "c", "gml", "basic", "html", "js", "css"
+        ],
+        "technologies": [
+          "arduino", "photoshop", "mysql"
+        ],
+        "softSkills": [
+          "self-taught programming", "web development", "web design"
         ]
       }
     ]

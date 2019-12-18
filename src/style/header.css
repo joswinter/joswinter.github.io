@@ -7,6 +7,10 @@
   color: #fff;
 }
 
+.header a {
+  color: #0116a9;
+}
+
 .header-text {
   position: absolute;
   top: 0;
